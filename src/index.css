@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #09090b;
+    --bg-secondary: #121215;
+    --bg-tertiary: #18181b;
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.16);
+    --accent-gold: #d4af37;
+    --accent-amber: #f59e0b;
+    --text-primary: #fafafa;
+    --text-muted: #a1a1aa;
+  }
+}
+
+/* Custom Typography Helpers */
+.font-bodoni {
+  font-family: 'Bodoni Moda', serif;
+}
+.font-cormorant {
+  font-family: 'Cormorant Garamond', serif;
+}
+.font-dm-serif {
+  font-family: 'DM Serif Display', serif;
+}
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+.font-italiana {
+  font-family: 'Italiana', serif;
+}
+.font-manrope {
+  font-family: 'Manrope', sans-serif;
+}
+.font-archivo-black {
+  font-family: 'Archivo Black', sans-serif;
+}
+.font-archivo {
+  font-family: 'Archivo', sans-serif;
+}
+.font-space {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.font-syne {
+  font-family: 'Syne', sans-serif;
+}
+.font-jakarta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.font-dm-sans {
+  font-family: 'DM Sans', sans-serif;
+}
+.font-noto-serif-kr {
+  font-family: 'Noto Serif KR', serif;
+}
+.font-noto-sans-kr {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}

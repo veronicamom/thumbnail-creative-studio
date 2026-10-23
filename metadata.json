@@ -1,0 +1,6 @@
+{
+  "name": "Telegram Creative Studio",
+  "description": "텔레그램 기반 에이전시 썸네일 자동 제작 시스템 — CAA & MMA 스타일의 고급 에디토리얼 프리셋, AI 폰트 큐레이터, 로고 상대좌표 합성 엔진 및 웹 관리자",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
